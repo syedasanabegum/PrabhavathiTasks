@@ -7,9 +7,24 @@
     <link rel="stylesheet" href="./index.css">
     <title>LOGIN</title>
 </head>
+<script>
+    var myDate = new Date();
+    var hrs = myDate.getHours();
+    
+    var greet;
+    if(hrs<12)
+        greet = 'Good Morning';
+    else if(hrs>=12&&hrs<=17)
+        greet = 'Good Afternoon';
+    else
+        greet = 'Good Evening';
+
+    document.getElementById('greetings').innerHTML='<b>' + greet + '</b>';
+</script>
+
 <body>
     <section>
-        <h2><span><img src="./images/happy.png" width="25px" height="25px"></span> Good Morning, Admin </h2>
+        <h2><span><img src="./images/happy.png" width="25px" height="25px"></span><label id = "lblGreetings"></label>, Admin </h2>
         <br>
         <div class="form bg">
             <h2 class="bg"><span><img src="./images/locked-with-key.png" width="25px" height="25px"></span> LOGIN</h2>
@@ -25,4 +40,19 @@
         </div>
     </section>
 </body>
+<script>
+    var myDate= new Date();
+    var hrs= myDate.getHours();
+
+
+    var greet;
+    if(hrs<12)
+        greet = 'Good Morning';
+    else if(hrs>=12 && hrs<=17)
+        greet = 'Good Afternoon';
+    else if(hrs>=17 && hrs<=24)
+        greet = 'Good Evening';
+
+    document.getElementById('lblGreetings').innerHTML = '<b>' + greet + '</b>';
+</script>
 </html>
