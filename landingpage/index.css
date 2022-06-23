@@ -1,0 +1,32 @@
+.subhead{
+    color:#ff8f21;
+}
+h{
+    margin-right: 15px;
+}
+.new{
+    position:absolute;
+    color:white;
+    left:8px;
+}
+.whatsapp{
+    background-color: #d5e8d3;
+   
+    padding:10px;
+    margin-top: 10px;
+}
+.whatsapp:hover{
+    background-color: #fdd8b0;
+}
+.info{
+    border:solid #b4b4b4 1px;
+    
+}
+footer{
+    background-color: #ff8f21;
+}
+.logo{
+    background-color: #ff8f21;
+    border:white solid 1px;
+   
+}
