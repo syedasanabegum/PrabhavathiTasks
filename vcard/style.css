@@ -4,7 +4,7 @@ body{
     align-items: center;
 }
 .testimonial-card .card-up {
-    height: 500px;
+    height: 250px;
     overflow: hidden;
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem;
