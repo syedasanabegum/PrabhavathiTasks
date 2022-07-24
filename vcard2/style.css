@@ -3,6 +3,10 @@ body{
     justify-content: center;
     align-items: center;
 }
+.main{
+    border:1px solid grey;
+    margin-top:10px;
+}
 
 .testimonial-card .card-up {
     height: 250px;
@@ -14,7 +18,8 @@ body{
     .testimonial-card .avatar {
     width:85%;
     height:100%;
-    margin-top: -60px;
+    margin-top: -90px;
+   /* margin-top: -60px;*/
     overflow: hidden;
     border-radius: 20px;
     background-color: black;
