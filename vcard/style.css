@@ -3,8 +3,13 @@ body{
     justify-content: center;
     align-items: center;
 }
+.main{
+    margin-top: 60px;
+    border:1px solid grey;
+    border-radius: 5px;
+}
 .testimonial-card .card-up {
-    height: 250px;
+    height: 280px;
     overflow: hidden;
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem;
@@ -12,7 +17,7 @@ body{
     
     .testimonial-card .avatar {
     width: 150px;
-    margin-top: -60px;
+    margin-top: -80px;
     overflow: hidden;
     border: 3px solid #fff;
     border-radius: 50%;
